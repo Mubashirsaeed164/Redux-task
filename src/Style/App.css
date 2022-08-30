@@ -1,0 +1,235 @@
+/* navigation bar css */
+.nav-bar {
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    border-bottom: 1px solid gray;
+}
+.nav-menu{
+     display: flex;
+}
+nav {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+}
+nav li {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+li:hover {
+    border-bottom: 2px solid gray;
+}
+.search-bar {
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 900px;
+    border: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.main-btn {
+    margin: 0 auto;
+    height: 50px;
+    width: 50%;
+}
+.main-btn nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+.main-btn nav ul li {
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px gray;
+    
+}
+.main-btn nav ul li:hover {
+    background-color: lightblue;
+    color: white;
+    border: none;
+}
+
+.history-btn {
+  margin: 0 auto;
+  height: 50px;
+  width: 50%;
+}
+.history-btn nav ul {
+  list-style: none;
+  display: flex;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+.history-btn nav ul li {
+  border: 1px solid lightgray;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #0d3f57;
+  
+}
+.history-btn nav ul li:hover {
+  background-color: lightblue;
+  color: white;
+  border: none;
+}
+/* Search input field css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;  
+  }
+  
+  .search-box{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  .search {
+    width: 100%;
+    margin: 10px 20px;
+    display: flex;
+  }
+  .search-field{
+    width: 100%;
+    height: 50px;
+  }
+  .search-field input {
+    width: 90%;
+    font-size: large;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid lightgray;
+  }
+  h2 {
+    margin-left: 20px;
+  }
+
+/* user display */
+.wrap { 
+    margin-top: 20px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 40px;
+    
+  }
+  .box {
+    padding: 3px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 30px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    background: linear-gradient(70deg, #b0e2ee 40%, #a9c6d3 40%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    }
+  
+  .inner-box {
+    row-gap: 10px ;
+  }
+
+
+  /* user profile css */
+
+  .card-box{
+    height: 800px;
+    width: 700px;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .header {
+    height: 250px;
+    width: 700px;
+  }
+  .box-1{
+    height: 150px;
+    width: 700px;
+    background-color: #92cfd8;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .box-2 {
+    height: 190px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -90px;
+  }
+  .profile-image {
+    height: 190px;
+    width: 200px;
+    margin-top: -20px;
+    border-radius: 100px; 
+  }
+  h3{
+    margin-left: 20px;
+  }
+  p {
+    margin-left: 20px;
+  }
+  .photo-image{
+    display: flex;
+    height: 200px;
+    width: 200px;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+    margin: 15px 15px;
+  }
+.btn-1 {
+    width: 100px;
+    margin: 0 auto;
+}
+  button {
+    border: none;
+    outline: 0;
+    /* display: inline-block; */
+    padding: 8px;
+    color: white;
+    background-color: #92cfd8;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: #cde4e7;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Blue */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+  .spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+  a:visited, a:link {
+    text-decoration: none;
+    color: #383636;
+  }
+ 
