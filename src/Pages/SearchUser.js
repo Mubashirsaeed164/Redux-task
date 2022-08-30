@@ -23,6 +23,7 @@ function SearchUser(props) {
     
     useEffect(()=>{
         UserHistoryData();
+        // eslint-disable-next-line
     },[])
     
     const UserHistoryData = () => {

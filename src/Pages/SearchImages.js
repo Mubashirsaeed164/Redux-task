@@ -22,6 +22,7 @@ function SearchBar(props){
 
   useEffect(()=>{
    imageHistory();
+   // eslint-disable-next-line
   },[])
 
   const imageHistory = () => {
